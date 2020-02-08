@@ -1,37 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Page</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    <body>
-        <section class="section section--header clearfix">
-            <div class="container">
-                <div>
-                    <img class="image" src="./assets/img/logo.png">
-                    <p>Flat Mate</p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:100,100i,400,500,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="section section--header">
+        <div class="container">
+            <header class="header">
+                <img class="header__logo" src="./assets/img/logo.png">
+                <div class="header__login">
+                    <span>Have an Account ?</span>
+                    <button class="btn btn--sm btn--dark">LOGIN</button>
                 </div>
-                <div>
-                    <form>
-                        <input class="form-field" type="text" id="account" placeholder="Have an Account ?">
-                    </form>
-                    <button class="lg">LOGIN</button>
-                </div>
-                <div>
+            </header>
+            <div class="section__content">
+                <div class="section__content-left">
                     <h2>Lorem ipsum dolor sit amet</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <button class="read">Read More</button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                    <button class="btn btn--lg btn--success">Read More</button>
                 </div>
-                <div>
-                    <img class="image" src="./assets/img/ico.png">
+                <div class="section__content-right">
+                    <img src="./assets/img/ico.png">
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <!--
         <section class="section section--line">
             <div class="container">
                 <div>
@@ -143,6 +147,8 @@
 
                 </div>
             </div>
-        </section>   
-    </body>
-</html>    
+        </section> 
+    -->
+</body>
+
+</html>
