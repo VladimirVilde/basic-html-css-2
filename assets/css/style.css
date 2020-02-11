@@ -15,7 +15,7 @@ h1,h2,h3 {
 }
 
 .container {
-    width: 1240px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -27,7 +27,15 @@ p {
 }
 /***************************************************************button************************************************/
 .btn{}
-.btn--sm{}
+.btn--sm{
+    padding: 7px 14px;
+    color: #cad1db;
+    background-color: #3d4b60;
+    border:1px solid;
+    border-color: #3d4b60;
+    border-radius: 8px;
+     
+}
 .btn--md{}
 .btn--lg{}
 .btn--dark{}
@@ -36,20 +44,33 @@ p {
 .section--header {
     background-image: url(../img/__Banner__.png);
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 65px;
+    padding-left: 200px;
+    
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 220px;
 }
 
 .header__logo {
-    width: 250px;
+    width: 240px;
+            
 }
 
-.header__login {}
+.header__login {
+    font-size: 20px;
+    padding-right: 45px;
+    padding-top: 10px;
 
+}
+.account {
+    font-style: italic;
+    color: #c9ced7;
+    padding-right: 25px;
+}
 .section__content {
     display: flex;
     justify-content: space-between;
@@ -58,6 +79,29 @@ p {
 .section__content-right {
     display: flex;
     align-items: center;
+    
+}
+
+h2 {
+    font-size: 51px;
+    padding-bottom: 50px;
+    text-align: left;
+
+}
+
+.content__p {
+    font-size: 26px;
+    padding-right: 300px;
+    line-height: 50px;
+    padding-bottom: 50px;
+    color: #c5d2e5;
+
+}
+.img{
+    width: 300px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+
 }
 
 
