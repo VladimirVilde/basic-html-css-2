@@ -15,7 +15,8 @@ h1,h2,h3 {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -23,30 +24,44 @@ h1,h2,h3 {
 p {
     padding: 0px;
     margin: 0px;
-    text-align: justify;
 }
 /***************************************************************button************************************************/
-.btn{}
+.btn{
+    color: #ffffff; 
+    border:1px solid black;
+    text-align: center;
+}
+
 .btn--sm{
     padding: 7px 14px;
     color: #cad1db;
-    background-color: #3d4b60;
-    border:1px solid;
-    border-color: #3d4b60;
     border-radius: 8px;
-     
 }
+
 .btn--md{}
-.btn--lg{}
-.btn--dark{}
-.btn--success{}
+
+.btn--lg{
+    font-size: 36px;
+    border-radius: 8px;
+    padding: 16px 41px;
+}
+
+.btn--dark{
+    background-color: #3d4b60;
+    border-color: #3d4b60;
+}
+
+.btn--success{   
+    background-color: #67bf95;
+    border-color: #67bf95;
+}
 /***************************************************************1************************************************/
 .section--header {
+    width: 100%;
     background-image: url(../img/__Banner__.png);
-    padding-bottom: 0px;
+    background-size: cover;
+    padding-bottom: 240px;
     padding-top: 65px;
-    padding-left: 200px;
-    
 }
 
 .header {
@@ -62,15 +77,18 @@ p {
 
 .header__login {
     font-size: 20px;
-    padding-right: 45px;
-    padding-top: 10px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: center;
 
 }
+
 .account {
     font-style: italic;
     color: #c9ced7;
-    padding-right: 25px;
+    padding-right: 20px;
 }
+
 .section__content {
     display: flex;
     justify-content: space-between;
@@ -83,6 +101,7 @@ p {
 }
 
 h2 {
+    font-family: 'Roboto Slab', serif;
     font-size: 51px;
     padding-bottom: 50px;
     text-align: left;
@@ -91,21 +110,32 @@ h2 {
 
 .content__p {
     font-size: 26px;
-    padding-right: 300px;
-    line-height: 50px;
+    padding-right: 250px;
+    line-height: 40px;
     padding-bottom: 50px;
     color: #c5d2e5;
 
 }
+
 .img{
     width: 300px;
-    padding-right: 70px;
-    padding-bottom: 10px;
+    padding-right: 75px;
+    padding-bottom: 44px;
 
 }
-
-
 /***************************************************************2************************************************/
+.section--line {
+   background-color: #f6f6f7;
+   padding-top: 120px;
+}
+.section__line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line__logo{
+    width: 200px;
+}
 /***************************************************************3************************************************/
 /***************************************************************4************************************************/
 /***************************************************************5************************************************/
