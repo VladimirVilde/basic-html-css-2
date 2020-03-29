@@ -1,18 +1,20 @@
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     color: #ffffff;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     margin: 0;
 }
 
 .image {
     max-width: auto;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -23,36 +25,38 @@ p {
     padding: 0px;
     margin: 0px;
 }
+
 /***************************************************************button************************************************/
-.btn{
-    color: #ffffff; 
-    border:1px solid black;
+.btn {
+    color: #ffffff;
+    border: 1px solid black;
     text-align: center;
 }
 
-.btn--sm{
+.btn--sm {
     padding: 7px 14px;
     color: #cad1db;
     border-radius: 8px;
 }
 
-.btn--md{}
+.btn--md {}
 
-.btn--lg{
+.btn--lg {
     font-size: 36px;
     border-radius: 8px;
     padding: 16px 41px;
 }
 
-.btn--dark{
+.btn--dark {
     background-color: #3d4b60;
     border-color: #3d4b60;
 }
 
-.btn--success{   
+.btn--success {
     background-color: #67bf95;
     border-color: #67bf95;
 }
+
 /***************************************************************1************************************************/
 .section--header {
     width: 100%;
@@ -70,7 +74,7 @@ p {
 
 .header__logo {
     width: 240px;
-            
+
 }
 
 .header__login {
@@ -95,7 +99,7 @@ p {
 .section__content-right {
     display: flex;
     align-items: center;
-    
+
 }
 
 h2 {
@@ -115,19 +119,21 @@ h2 {
 
 }
 
-.img{
+.img {
     width: 300px;
     padding-right: 75px;
     padding-bottom: 44px;
 
 }
+
 /***************************************************************2************************************************/
 .section--line {
-   background-color: #f6f6f7;
-   padding-top: 100px;
-   padding-bottom: 125px;
-   padding-left: 100px;
+    background-color: #f6f6f7;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    padding-left: 100px;
 }
+
 .section__line {
     display: flex;
     justify-content: space-between;
@@ -135,7 +141,7 @@ h2 {
 
 .line__logo {
     width: 235px;
-    
+
 }
 
 .line__content {
@@ -149,6 +155,7 @@ h3 {
     color: #37414e;
     text-align: left;
 }
+
 .line__p {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
@@ -157,62 +164,66 @@ h3 {
     width: 590px;
     height: 150px;
     padding-top: 20px;
-    
+
 }
 
 .btn-list {
     display: flex;
     padding-right: 110px;
     padding-top: 35px;
-    
+
 }
-.btn__list--vertical{
+
+.btn__list--vertical {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.btn-list__item{}
-.btn-list__item--img{
+
+.btn-list__item {}
+
+.btn-list__item--img {
     width: 75px;
 }
+
 /***************************************************************3************************************************/
-.section--slider{
+.section--slider {
     background-color: #52ad81;
     padding-top: 110px;
 }
 
-.section__slider{
+.section__slider {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 
 }
 
-.slider__content{
+.slider__content {
     text-align: center;
+    
+    
 }
 
 
-.slider__image--inner{
+.slider__image--inner {
     width: 100%;
     max-width: 2350px;
 }
 
 
-.slider__btn{
+.slider__btn {
     flex-grow: 1;
     display: flex;
     margin: 0 0 0 100px;
-
-    
 }
 
-.slider__btn button{
+.slider__btn button {
     color: #ffffff;
     text-align: center;
     font-size: 30px;
