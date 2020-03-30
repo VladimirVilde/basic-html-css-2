@@ -206,11 +206,11 @@ h3 {
 
 .slider__content {
     text-align: center;
+    align-content: flex-end;
 }
 
 .slider__image--inner {
     width: 100%;
-    height: 100%;
     max-width: 2350px;
 }
 
@@ -366,6 +366,40 @@ h3 {
     background-color: #52a1ad;
 }
 /***************************************************************5************************************************/
+.section--wireframe{
+    background-color: #e9eaed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section__wireframe--inner{
+    color: #4b596c;
+    font-size: 43px;
+}
 /***************************************************************6************************************************/
+.section--video{}
+
+.section__video--inner{
+    width: 100%;
+    position: relative;
+}
+
+.video__btn {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.8s;
+    
+}
+
+.video__btn:hover {
+    color: #000;
+    background: red;
 /***************************************************************7************************************************/
 /***************************************************************8************************************************/
