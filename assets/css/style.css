@@ -195,7 +195,7 @@ h3 {
 .section__slider {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -206,21 +206,18 @@ h3 {
 
 .slider__content {
     text-align: center;
-    
-    
 }
-
 
 .slider__image--inner {
     width: 100%;
+    height: 100%;
     max-width: 2350px;
 }
 
-
 .slider__btn {
-    flex-grow: 1;
+    flex-grow: 0;
     display: flex;
-    margin: 0 0 0 100px;
+    justify-content: space-between;
 }
 
 .slider__btn button {
@@ -243,6 +240,131 @@ h3 {
 }
 
 /***************************************************************4************************************************/
+.section--buy{
+    background-color: #f6f6f7;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.buy__skeleton{
+    font-family:  Roboto Medium, sans-serif;
+    font-size: 43px;
+    padding-bottom: 20px;
+
+}
+
+.buy__p{
+    font-family: Roboto Regular, sans-serif;
+    font-size: 22px;
+    color: #858b93;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    
+}
+
+.card{
+    width: 330px;
+    height: 760px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 150px;
+    text-align: center;
+}
+
+.card__title{
+    font-family:  Roboto Medium, sans-serif;
+    color: #fff;
+    height: 85px;
+    line-height: 85px;
+    font-size: 34px;
+}
+
+.card__price{
+    font-family: Roboto Medium, sans-serif;
+    background-color: #e9eef3;
+    height: 150px;
+    font-size: 34px;
+    color: #4b596c;
+}
+
+.card__Projects{
+    font-family: Roboto Regular, sans-serif;
+    font-size: 30px;
+    background-color: #e9eef3;
+    color: #6d737b;
+    height: 150px;
+    
+}
+
+.card__Members{
+    font-size: 30px;
+    background-color: #e9eef3;
+    color: #6d737b;
+    height: 150px;
+    
+}
+
+.card__ram{
+    font-size: 30px;
+    background-color: #e9eef3;
+    color: #6d737b;
+    margin-bottom: 50px;
+    height: 150px;
+    
+}
+
+.card__btn{
+    font-family: Roboto Medium, sans-serif;
+    font-size: 34px;
+    color: #fff;
+    height: 85px;
+    line-height: 85px;
+    width: 330px;
+    
+}
+
+.card .dark__title {
+    background-color: #4b596c;
+}
+
+.card .dark__price{
+    color: #4b596c;
+}
+
+.card .dark__btn{
+    background-color: #4b596c;
+}
+
+.card .green__title{
+    background-color: #58ad52;
+}
+
+.card .green__price{
+    color: #58ad52;
+}
+
+.card .green__btn{
+    background-color: #58ad52;
+}
+
+.card .blu__title{
+    background-color: #52a1ad;
+}
+
+.card .blu__price{
+    color: #52a1ad;
+}
+
+.card .blu__btn{
+    background-color: #52a1ad;
+}
 /***************************************************************5************************************************/
 /***************************************************************6************************************************/
 /***************************************************************7************************************************/
