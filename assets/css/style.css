@@ -240,20 +240,20 @@ h3 {
 }
 
 /***************************************************************4************************************************/
-.section--buy{
+.section--buy {
     background-color: #f6f6f7;
     padding-top: 160px;
     padding-bottom: 160px;
 }
 
-.buy__skeleton{
-    font-family:  Roboto Medium, sans-serif;
+.buy__skeleton {
+    font-family: Roboto Medium, sans-serif;
     font-size: 43px;
     padding-bottom: 20px;
 
 }
 
-.buy__p{
+.buy__p {
     font-family: Roboto Regular, sans-serif;
     font-size: 22px;
     color: #858b93;
@@ -261,15 +261,15 @@ h3 {
     padding-bottom: 50px;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 50px;
-    
+
 }
 
-.card{
+.card {
     width: 330px;
     height: 760px;
     padding-top: 20px;
@@ -278,15 +278,15 @@ h3 {
     text-align: center;
 }
 
-.card__title{
-    font-family:  Roboto Medium, sans-serif;
+.card__title {
+    font-family: Roboto Medium, sans-serif;
     color: #fff;
     height: 85px;
     line-height: 85px;
     font-size: 34px;
 }
 
-.card__price{
+.card__price {
     font-family: Roboto Medium, sans-serif;
     background-color: #e9eef3;
     height: 150px;
@@ -294,112 +294,119 @@ h3 {
     color: #4b596c;
 }
 
-.card__Projects{
+.card__Projects {
     font-family: Roboto Regular, sans-serif;
     font-size: 30px;
     background-color: #e9eef3;
     color: #6d737b;
     height: 150px;
-    
+
 }
 
-.card__Members{
+.card__Members {
     font-size: 30px;
     background-color: #e9eef3;
     color: #6d737b;
     height: 150px;
-    
+
 }
 
-.card__ram{
+.card__ram {
     font-size: 30px;
     background-color: #e9eef3;
     color: #6d737b;
     margin-bottom: 50px;
     height: 150px;
-    
+
 }
 
-.card__btn{
+.card__btn {
     font-family: Roboto Medium, sans-serif;
     font-size: 34px;
     color: #fff;
     height: 85px;
     line-height: 85px;
     width: 330px;
-    
+
 }
 
 .card .dark__title {
     background-color: #4b596c;
 }
 
-.card .dark__price{
+.card .dark__price {
     color: #4b596c;
 }
 
-.card .dark__btn{
+.card .dark__btn {
     background-color: #4b596c;
 }
 
-.card .green__title{
+.card .green__title {
     background-color: #58ad52;
 }
 
-.card .green__price{
+.card .green__price {
     color: #58ad52;
 }
 
-.card .green__btn{
+.card .green__btn {
     background-color: #58ad52;
 }
 
-.card .blu__title{
+.card .blu__title {
     background-color: #52a1ad;
 }
 
-.card .blu__price{
+.card .blu__price {
     color: #52a1ad;
 }
 
-.card .blu__btn{
+.card .blu__btn {
     background-color: #52a1ad;
 }
+
 /***************************************************************5************************************************/
-.section--wireframe{
+.section--wireframe {
+    height: 100%;
     background-color: #e9eaed;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-.section__wireframe--inner{
+.section__wireframe--inner {
     color: #4b596c;
     font-size: 43px;
 }
-/***************************************************************6************************************************/
-.section--video{}
 
-.section__video--inner{
-    width: 100%;
-    position: relative;
+/***************************************************************6************************************************/
+.section--video {
+    background-image: url(../img/video.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .video__btn {
-    color: #ffffff;
+    display: inline-block;
+    color: #6d737b;
     text-align: center;
-    font-size: 30px;
-    width: 50px;
-    height: 50px;
+    font-size: 60px;
+    background-position: center;
     background-color: transparent;
-    border: 3px solid white;
+    border: 12px solid;
+    border: rgba(250 0 0 0.5) #6d737b;
     border-radius: 100%;
     cursor: pointer;
     transition: 0.8s;
-    
+
 }
 
 .video__btn:hover {
-    color: #000;
-    background: red;
-/***************************************************************7************************************************/
-/***************************************************************8************************************************/
+    color: #fff;
+    background-color: transparent;
+    /***************************************************************7************************************************/
+    /***************************************************************8************************************************/
