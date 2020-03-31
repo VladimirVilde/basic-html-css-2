@@ -127,26 +127,28 @@
     <section class="section section--message">
         <div class="container">
             <div class="section__message">
-                <img class="section__message message--inner" src="./assets/img/__ Contact Icon __.png">
-            </div>    
-            <div>
-                <form>
-                    <label>Name*</label>
-                    <input class="form-field" type="text" id="name">
-                    <label>E-Mail*</label>
-                    <input class="form-field" type="email" id="email">
-                </form>
+                <img class="message__inner" src="./assets/img/__ Contact Icon __.png">
             </div>
-            <div>
-                <form>
-                    <label>Message*</label>
-                    <textarea class="form-field" id="massage" name="massage" rows="5"></textarea>
-                    <button class="send">SEND</button>
-                </form>
+            <div class="message__form">
+                <div class="message__form--login">
+                    <form class="form__login">
+                        <label class="form__header">Name<span class="colortext">*</span></label>
+                        <input class="form__login--field" type="text" id="name">
+                        <label class="form__header">E-Mail<span class="colortext">*</span></label>
+                        <input class="form__login--field" type="email" id="email">
+                    </form>
+                </div>
+                <div class="message__form--filling">
+                    <form class="form__filling">
+                        <label class="form__header">Message<span class="colortext">*</span></label>
+                        <textarea class="form__filling--field" id="massage" name="massage" rows="5"></textarea>
+                        <button class="form__send">send</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
-<!--
+    <!--
         <section class="section section--footer">
             <div class="container">
                 <div>

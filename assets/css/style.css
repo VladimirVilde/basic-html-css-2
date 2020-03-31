@@ -31,6 +31,7 @@ p {
     color: #ffffff;
     border: 1px solid black;
     text-align: center;
+    outline: 0;
 }
 
 .btn--sm {
@@ -38,8 +39,6 @@ p {
     color: #cad1db;
     border-radius: 8px;
 }
-
-.btn--md {}
 
 .btn--lg {
     font-size: 36px;
@@ -171,6 +170,7 @@ h3 {
     display: flex;
     padding-right: 110px;
     padding-top: 35px;
+    outline: 0;
 
 }
 
@@ -233,6 +233,7 @@ h3 {
     border-radius: 100%;
     cursor: pointer;
     transition: 0.8s;
+    outline: 0;
 
 }
 
@@ -414,15 +415,123 @@ h3 {
     color: #fff;
     background-color: transparent;
 }
-    /***************************************************************7************************************************/
-    .section--message{
-        background-color: #2d3136;
-        padding-top: 125px;
-    }
 
-    .message--inner{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    /***************************************************************8************************************************/
+/***************************************************************7************************************************/
+.section--message {
+    background-color: #2d3136;
+    padding-top: 125px;
+    padding-bottom: 200px;
+}
+
+.section__message {
+    display: flex;
+    justify-content: center;
+
+}
+
+.message__inner{
+    width: 275px;
+    height: 275px;
+    padding-bottom: 100px;
+}
+
+.message__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.form__header{
+    padding-bottom: 30px;
+}
+
+.form__login {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+.form__login--field{
+    width: 500px;
+    height: 100px;
+    color: #6d737b;
+    background-color: #2d3136;
+    margin-bottom: 70px;
+    border: 2px solid #6d737b;
+    border-radius: 10px;
+    display: block;
+    padding: 0px 10px;
+    font-size: 30px;
+    outline: 0;
+}
+
+.form__login--field:hover{
+    border: 2px solid red;
+}
+
+.form__filling {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    position: relative;
+    
+
+}
+.form__filling--field{
+    width: 550px;
+    height: 340px;
+    color: #6d737b;
+    background-color: #2d3136;
+    margin-bottom: 80px;
+    border: 2px solid #6d737b;
+    border-radius: 10px;
+    display: block;
+    padding: 0px 10px;
+    font-size: 30px;
+    outline: 0;
+}
+
+.form__filling--field:hover{
+    border: 2px solid red;
+}
+
+.form__send {
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    background: red;
+    width: 230px;
+    height: 90px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.8s;
+    outline: 0;
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+}
+
+.form__send:hover {
+    color: red;
+    background: gray;
+}
+
+.colortext {
+    color: red;
+}
+
+/***************************************************************8************************************************/
