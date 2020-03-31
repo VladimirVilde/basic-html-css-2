@@ -26,7 +26,7 @@ p {
     margin: 0px;
 }
 
-/***************************************************************button************************************************/
+/***************************************************************button 1 section************************************************/
 .btn {
     color: #ffffff;
     border: 1px solid black;
@@ -180,7 +180,9 @@ h3 {
     justify-content: space-around;
 }
 
-.btn-list__item {}
+.btn-list__item {
+    cursor: pointer;
+}
 
 .btn-list__item--img {
     width: 75px;
@@ -327,6 +329,8 @@ h3 {
     height: 85px;
     line-height: 85px;
     width: 330px;
+    cursor: pointer;
+    outline: 0;
 
 }
 
@@ -402,11 +406,23 @@ h3 {
     border-radius: 100%;
     cursor: pointer;
     transition: 0.8s;
+    outline: 0;
 
 }
 
 .video__btn:hover {
     color: #fff;
     background-color: transparent;
+}
     /***************************************************************7************************************************/
+    .section--message{
+        background-color: #2d3136;
+        padding-top: 125px;
+    }
+
+    .message--inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /***************************************************************8************************************************/
