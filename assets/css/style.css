@@ -31,6 +31,7 @@ p {
     color: #ffffff;
     border: 1px solid black;
     text-align: center;
+    cursor: pointer;
     outline: 0;
 }
 
@@ -371,6 +372,11 @@ h3 {
     background-color: #52a1ad;
 }
 
+.card__btn:hover{
+    background-color: gray;
+    color: greenyellow;
+}
+
 /***************************************************************5************************************************/
 .section--wireframe {
     height: 100%;
@@ -429,7 +435,7 @@ h3 {
 
 }
 
-.message__inner{
+.message__inner {
     width: 275px;
     height: 275px;
     padding-bottom: 100px;
@@ -440,9 +446,10 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     color: #fff;
+    font-family: Roboto Medium, sans-serif;
 }
 
-.form__header{
+.form__header {
     padding-bottom: 30px;
 }
 
@@ -458,7 +465,8 @@ h3 {
 
 }
 
-.form__login--field{
+.form__login--field {
+    font-family: Roboto Medium, sans-serif;
     width: 500px;
     height: 100px;
     color: #6d737b;
@@ -468,11 +476,11 @@ h3 {
     border-radius: 10px;
     display: block;
     padding: 0px 10px;
-    font-size: 30px;
+    font-size: 35px;
     outline: 0;
 }
 
-.form__login--field:hover{
+.form__login--field:hover {
     border: 2px solid red;
 }
 
@@ -486,30 +494,33 @@ h3 {
     font-size: 100%;
     vertical-align: baseline;
     position: relative;
-    
+
 
 }
-.form__filling--field{
+
+.form__filling--field {
+    font-family: Roboto Medium, sans-serif;
     width: 550px;
     height: 340px;
-    color: #6d737b;
+    color: #d7d7d7;
     background-color: #2d3136;
     margin-bottom: 80px;
     border: 2px solid #6d737b;
     border-radius: 10px;
     display: block;
     padding: 0px 10px;
-    font-size: 30px;
+    font-size: 35px;
     outline: 0;
 }
 
-.form__filling--field:hover{
+.form__filling--field:hover {
     border: 2px solid red;
 }
 
 .form__send {
+    font-family: Roboto Bold, sans-serif;
     text-align: center;
-    font-size: 26px;
+    font-size: 36px;
     text-transform: uppercase;
     color: #fff;
     background: red;
@@ -535,3 +546,71 @@ h3 {
 }
 
 /***************************************************************8************************************************/
+
+.section--footer {
+    background-color: #2a2d33;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer__logo--inner {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.footer__link {
+    font-family: Roboto Medium, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.color__link {
+    color: #8d8d8d;
+    font-size: 18px;
+}
+
+.color__link:visited {
+    color: grey;
+}
+
+.color__link:hover {
+    color: blue;
+}
+
+.color__link:active {
+    background-color: yellow;
+}
+
+.footer__icon {
+    display: flex;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.icon__twitter {
+    cursor: pointer;
+    background-image: url(../img/twit.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 60px;
+}
+
+.icon__facebook {
+    cursor: pointer;
+    background-image: url(../img/FB.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
