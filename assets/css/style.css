@@ -57,6 +57,11 @@ p {
     border-color: #67bf95;
 }
 
+.btn:hover {
+    color: #fff;
+    background-color: grey;
+}
+
 /***************************************************************1************************************************/
 .section--header {
     width: 100%;
@@ -72,10 +77,37 @@ p {
     padding-bottom: 220px;
 }
 
-.header__logo {
-    width: 240px;
-
+.header__logo--inner {
+    width: 50px;
+    vertical-align: middle;
 }
+
+.header__link {
+    font-family: Roboto Medium, sans-serif;
+    font-size: 41px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.header__link {
+    color: #fff;
+}
+
+.header__link:visited {
+    color: #800080;
+}
+
+.header__link:hover {
+    color: grey;
+}
+
+.header__link:active {
+    color: indianred;
+}
+
 
 .header__login {
     font-size: 20px;
@@ -178,8 +210,9 @@ h3 {
 .btn__list--vertical {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
+
 
 .btn-list__item {
     cursor: pointer;
@@ -187,6 +220,14 @@ h3 {
 
 .btn-list__item--img {
     width: 75px;
+}
+
+.btn-list__tw{
+    padding-bottom: 50px;
+}
+.btn-list__tw:hover{
+    padding-right: 20px;
+    transition: 0.8s;
 }
 
 /***************************************************************3************************************************/
@@ -330,6 +371,7 @@ h3 {
     color: #fff;
     height: 85px;
     line-height: 85px;
+    border: none;
     width: 330px;
     cursor: pointer;
     outline: 0;
@@ -372,7 +414,7 @@ h3 {
     background-color: #52a1ad;
 }
 
-.card__btn:hover{
+.card__btn:hover {
     background-color: gray;
     color: greenyellow;
 }
@@ -580,22 +622,25 @@ h3 {
 }
 
 .color__link:visited {
-    color: grey;
+    color: #800080;
 }
 
 .color__link:hover {
-    color: blue;
+    color: #fff;
 }
 
 .color__link:active {
-    background-color: yellow;
+    color: indianred;
 }
 
 .footer__icon {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .icon {
+    
     width: 50px;
     height: 50px;
 }
@@ -605,7 +650,11 @@ h3 {
     background-image: url(../img/twit.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-right: 60px;
+    
+}
+
+.icon__twitter:hover {
+    padding-top: 10px;
 }
 
 .icon__facebook {
@@ -613,4 +662,5 @@ h3 {
     background-image: url(../img/FB.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
 }
