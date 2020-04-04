@@ -200,19 +200,18 @@ h3 {
 }
 
 .btn-list {
-    display: flex;
+    display: inline-flex;
     padding-right: 110px;
     padding-top: 35px;
-    outline: 0;
 
 }
 
 .btn__list--vertical {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
+    justify-content: space-around;
 
+}
 
 .btn-list__item {
     cursor: pointer;
@@ -222,13 +221,18 @@ h3 {
     width: 75px;
 }
 
-.btn-list__tw{
-    padding-bottom: 50px;
-}
-.btn-list__tw:hover{
-    padding-right: 20px;
+.btn-list__tw:hover {
+    border: 3px solid grey;
+    border-radius: 100%;
     transition: 0.8s;
 }
+
+.btn-list__fb:hover {
+    border: 3px solid grey;
+    border-radius: 100%;
+    transition: 0.8s;
+}
+
 
 /***************************************************************3************************************************/
 .section--slider {
@@ -239,7 +243,7 @@ h3 {
 .section__slider {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -250,18 +254,18 @@ h3 {
 
 .slider__content {
     text-align: center;
-    align-content: flex-end;
+    
 }
 
 .slider__image--inner {
     width: 100%;
-    max-width: 2350px;
+    max-width: 1300px;
+    max-height: 600px;
 }
 
 .slider__btn {
     flex-grow: 0;
     display: flex;
-    justify-content: space-between;
 }
 
 .slider__btn button {
@@ -445,13 +449,13 @@ h3 {
 
 .video__btn {
     display: inline-block;
-    color: #6d737b;
+    color: #fff;
     text-align: center;
     font-size: 60px;
     background-position: center;
     background-color: transparent;
     border: 12px solid;
-    border: rgba(250 0 0 0.5) #6d737b;
+    border: rgba(250 0 0 0.5) #fff;
     border-radius: 100%;
     cursor: pointer;
     transition: 0.8s;
@@ -460,7 +464,7 @@ h3 {
 }
 
 .video__btn:hover {
-    color: #fff;
+    color: #6d737b;
     background-color: transparent;
 }
 
@@ -523,7 +527,7 @@ h3 {
 }
 
 .form__login--field:hover {
-    border: 2px solid red;
+    border: 2px solid #be393b;
 }
 
 .form__filling {
@@ -556,7 +560,7 @@ h3 {
 }
 
 .form__filling--field:hover {
-    border: 2px solid red;
+    border: 2px solid #be393b;
 }
 
 .form__send {
@@ -565,7 +569,7 @@ h3 {
     font-size: 36px;
     text-transform: uppercase;
     color: #fff;
-    background: red;
+    background: #be393b;
     width: 230px;
     height: 90px;
     border: none;
@@ -579,12 +583,12 @@ h3 {
 }
 
 .form__send:hover {
-    color: red;
+    color: #be393b;
     background: gray;
 }
 
 .colortext {
-    color: red;
+    color: #be393b;
 }
 
 /***************************************************************8************************************************/
@@ -636,11 +640,10 @@ h3 {
 .footer__icon {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .icon {
-    
     width: 50px;
     height: 50px;
 }
@@ -650,11 +653,13 @@ h3 {
     background-image: url(../img/twit.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+    margin-right: 50px;
 }
 
 .icon__twitter:hover {
-    padding-top: 10px;
+    border: 3px solid #67bf95;
+    border-radius: 100%;
+    transition: 0.8s;
 }
 
 .icon__facebook {
@@ -662,5 +667,10 @@ h3 {
     background-image: url(../img/FB.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
 
+.icon__facebook:hover {
+    border: 3px solid #67bf95;
+    border-radius: 100%;
+    transition: 0.8s;
 }
