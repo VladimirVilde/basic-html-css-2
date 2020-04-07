@@ -163,7 +163,6 @@ h2 {
     background-color: #f6f6f7;
     padding-top: 100px;
     padding-bottom: 125px;
-    padding-left: 100px;
 }
 
 .section__line {
@@ -178,7 +177,7 @@ h2 {
 
 .line__content {
     padding-top: 45px;
-    padding-right: 20px;
+    text-align: justify;
 }
 
 h3 {
@@ -261,11 +260,15 @@ h3 {
     width: 100%;
     max-width: 1300px;
     max-height: 600px;
+    padding: 0;
+    margin: 0;
 }
 
 .slider__btn {
+    max-width: 50px;
     flex-grow: 0;
     display: flex;
+    justify-content: center;
 }
 
 .slider__btn button {
@@ -280,6 +283,8 @@ h3 {
     cursor: pointer;
     transition: 0.8s;
     outline: 0;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -673,4 +678,32 @@ h3 {
     border: 3px solid #67bf95;
     border-radius: 100%;
     transition: 0.8s;
+}
+
+@media (max-width:1200px){
+    
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px){
+    .container{
+        max-width: 620px;
+    }
+}
+
+@media (max-width:576px){
+    .container{
+        max-width: 465px;
+    }
+}
+
+@media (max-width:320px){
+    .container{
+        max-width: 258px;
+    }
 }
