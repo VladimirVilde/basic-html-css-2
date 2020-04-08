@@ -44,7 +44,7 @@ p {
 .btn--lg {
     font-size: 36px;
     border-radius: 8px;
-    padding: 16px 41px;
+    padding: 17px 43px;
 }
 
 .btn--dark {
@@ -69,12 +69,13 @@ p {
     background-size: cover;
     padding-bottom: 240px;
     padding-top: 65px;
+    padding-left: 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 220px;
+    padding-bottom: 215px;
 }
 
 .header__logo--inner {
@@ -83,13 +84,14 @@ p {
 }
 
 .header__link {
-    font-family: Roboto Medium, sans-serif;
+    font-family: Roboto , sans-serif;
     font-size: 41px;
     color: #fff;
     padding: 0;
     margin: 0;
     text-decoration: none;
     vertical-align: middle;
+    padding-left: 15px;
 }
 
 .header__link {
@@ -135,9 +137,9 @@ p {
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 51px;
-    padding-bottom: 50px;
+    padding-bottom: 48px;
     text-align: left;
 
 }
@@ -145,8 +147,8 @@ h2 {
 .content__p {
     font-size: 26px;
     padding-right: 250px;
-    line-height: 40px;
-    padding-bottom: 50px;
+    line-height: 42px;
+    padding-bottom: 55px;
     color: #c5d2e5;
 
 }
@@ -252,7 +254,10 @@ h3 {
 }
 
 .slider__content {
-    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -262,6 +267,8 @@ h3 {
     max-height: 600px;
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 .slider__btn {
