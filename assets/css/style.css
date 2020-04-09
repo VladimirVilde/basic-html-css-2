@@ -67,9 +67,9 @@ p {
     width: 100%;
     background-image: url(../img/__Banner__.png);
     background-size: cover;
-    padding-bottom: 240px;
+    padding-bottom: 230px;
     padding-top: 65px;
-    padding-left: 100px;
+    padding-left: 95px;
 }
 
 .header {
@@ -165,11 +165,12 @@ h2 {
     background-color: #f6f6f7;
     padding-top: 100px;
     padding-bottom: 125px;
+    padding-left: 170px;
 }
 
 .section__line {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .line__logo {
@@ -179,7 +180,7 @@ h2 {
 
 .line__content {
     padding-top: 45px;
-    text-align: justify;
+    padding-right: 40px;
 }
 
 h3 {
@@ -191,26 +192,25 @@ h3 {
 
 .line__p {
     font-family: 'Roboto', sans-serif;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 42px;
     color: #4b596c;
-    width: 590px;
-    height: 150px;
+    width: 574px;
+    height: 170px;
     padding-top: 20px;
-
+    text-align: justify;
 }
 
 .btn-list {
-    display: inline-flex;
-    padding-right: 110px;
-    padding-top: 35px;
+    padding-right: 21px;
+    padding-top: 54px;
 
 }
 
 .btn__list--vertical {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: grid;
+    grid: column;
+    grid-gap: 39px;
 
 }
 
