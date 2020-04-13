@@ -8,6 +8,7 @@ h1,
 h2,
 h3 {
     margin: 0;
+    padding: 0;
 }
 
 .image {
@@ -69,7 +70,7 @@ p {
     background-size: cover;
     padding-bottom: 230px;
     padding-top: 65px;
-    padding-left: 95px;
+    padding-left: 18px;
 }
 
 .header {
@@ -84,7 +85,7 @@ p {
 }
 
 .header__link {
-    font-family: Roboto , sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 41px;
     color: #fff;
     padding: 0;
@@ -165,7 +166,7 @@ h2 {
     background-color: #f6f6f7;
     padding-top: 100px;
     padding-bottom: 125px;
-    padding-left: 170px;
+    padding-left: 12px;
 }
 
 .section__line {
@@ -241,30 +242,39 @@ h3 {
     padding-top: 110px;
 }
 
-.section__slider {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .text-center {
     text-align: center;
 
 }
 
 .slider__content {
-    
+    font-family: Roboto Medium;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    text-align: center;
+    padding-bottom: 100px;
 }
+
+h2 {
+    padding-bottom: 35px;
+}
+
+.slider__p {
+    font-family: Roboto Thin;
+    font-size: 27px;
+    padding-right: 350px;
+}
+
+.section__slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 
 .slider__image--inner {
     width: 100%;
-    max-width: 1300px;
-    max-height: 600px;
+    max-width: 1160px;
     padding: 0;
     margin: 0;
     display: flex;
@@ -272,15 +282,16 @@ h3 {
 }
 
 .slider__btn {
-    max-width: 50px;
-    flex-grow: 0;
+    width: 10%;
+    min-width: 100px;
+    flex-grow: 3;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .slider__btn button {
     color: #ffffff;
-    text-align: center;
     font-size: 30px;
     width: 50px;
     height: 50px;
@@ -687,30 +698,28 @@ h3 {
     transition: 0.8s;
 }
 
-@media (max-width:1200px){
-    
-}
+@media (max-width:1200px) {}
 
-@media (max-width:992px){
-    .container{
+@media (max-width:992px) {
+    .container {
         max-width: 750px;
     }
 }
 
-@media (max-width:767px){
-    .container{
+@media (max-width:767px) {
+    .container {
         max-width: 620px;
     }
 }
 
-@media (max-width:576px){
-    .container{
+@media (max-width:576px) {
+    .container {
         max-width: 465px;
     }
 }
 
-@media (max-width:320px){
-    .container{
+@media (max-width:320px) {
+    .container {
         max-width: 258px;
     }
 }
