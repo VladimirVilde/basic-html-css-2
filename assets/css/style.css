@@ -239,7 +239,7 @@ h3 {
 /***************************************************************3************************************************/
 .section--slider {
     background-color: #52ad81;
-    padding-top: 110px;
+    padding-top: 105px;
 }
 
 .text-center {
@@ -248,21 +248,21 @@ h3 {
 }
 
 .slider__content {
-    font-family: Roboto Medium;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 
-h2 {
-    padding-bottom: 35px;
+h1 {
+    font-size: 55px;
+    padding-bottom: 20px;
 }
 
 .slider__p {
     font-family: Roboto Thin;
-    font-size: 27px;
-    padding-right: 350px;
+    font-size: 30px;
+    padding-right: 308px;
 }
 
 .section__slider {
@@ -283,23 +283,23 @@ h2 {
 
 .slider__btn {
     width: 10%;
-    min-width: 100px;
+    max-width:338px;
     flex-grow: 3;
-    padding-top: 50px;
+    padding-top: 44px;
     display: flex;
     justify-content: center;
 }
 
 .slider__btn button {
-    color: #ffffff;
+    color: #b3dbc8;
     font-size: 30px;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     background-color: #52ad81;
-    border: 1px solid white;
+    border: 1px solid #b3dbc8;
     border-radius: 100%;
     cursor: pointer;
-    transition: 0.8s;
+    transition: 0.5s;
     outline: 0;
     margin: 0;
     padding: 0;
@@ -308,20 +308,21 @@ h2 {
 
 .slider__btn button:hover {
     color: #fff;
-    background: gray;
+    background: #5dba8d;
 }
 
 /***************************************************************4************************************************/
 .section--buy {
     background-color: #f6f6f7;
-    padding-top: 160px;
+    padding-top: 155px;
     padding-bottom: 160px;
 }
 
 .buy__skeleton {
     font-family: Roboto Medium, sans-serif;
     font-size: 43px;
-    padding-bottom: 20px;
+    color:#37414e;
+    padding-bottom: 28px;
 
 }
 
@@ -329,8 +330,8 @@ h2 {
     font-family: Roboto Regular, sans-serif;
     font-size: 22px;
     color: #858b93;
-    line-height: 30px;
-    padding-bottom: 50px;
+    line-height: 40px;
+    padding-bottom: 64px;
 }
 
 .cards {
@@ -346,8 +347,11 @@ h2 {
     height: 760px;
     padding-top: 20px;
     padding-bottom: 20px;
-    line-height: 150px;
+    padding-left: 18px;
+    padding-right: 20px;
+    line-height: 130px;
     text-align: center;
+    
 }
 
 .card__title {
@@ -419,6 +423,13 @@ h2 {
 
 .card .green__title {
     background-color: #58ad52;
+}
+
+.card__choice{
+    background-image: url(../img/professional.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
 }
 
 .card .green__price {
