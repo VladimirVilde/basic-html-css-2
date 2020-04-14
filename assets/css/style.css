@@ -283,7 +283,7 @@ h1 {
 
 .slider__btn {
     width: 10%;
-    max-width:338px;
+    max-width: 338px;
     flex-grow: 3;
     padding-top: 44px;
     display: flex;
@@ -315,13 +315,13 @@ h1 {
 .section--buy {
     background-color: #f6f6f7;
     padding-top: 155px;
-    padding-bottom: 160px;
+    padding-bottom: 108px;
 }
 
 .buy__skeleton {
     font-family: Roboto Medium, sans-serif;
     font-size: 43px;
-    color:#37414e;
+    color: #37414e;
     padding-bottom: 28px;
 
 }
@@ -339,35 +339,34 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 50px;
-
 }
 
 .card {
-    width: 330px;
+    width: 334px;
     height: 760px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 18px;
-    padding-right: 20px;
-    line-height: 130px;
+    padding-left: 15px;
+    padding-right: 18px;
+    line-height: 50px;
     text-align: center;
-    
+
 }
 
 .card__title {
     font-family: Roboto Medium, sans-serif;
     color: #fff;
-    height: 85px;
-    line-height: 85px;
-    font-size: 34px;
+    line-height: 83px;
+    font-size: 33px;
 }
 
 .card__price {
     font-family: Roboto Medium, sans-serif;
     background-color: #e9eef3;
-    height: 150px;
+    line-height: 123px;
     font-size: 34px;
     color: #4b596c;
+
 }
 
 .card__Projects {
@@ -375,15 +374,14 @@ h1 {
     font-size: 30px;
     background-color: #e9eef3;
     color: #6d737b;
-    height: 150px;
-
+    line-height: 140px;
 }
 
 .card__Members {
     font-size: 30px;
     background-color: #e9eef3;
     color: #6d737b;
-    height: 150px;
+    line-height: 115px;
 
 }
 
@@ -391,7 +389,8 @@ h1 {
     font-size: 30px;
     background-color: #e9eef3;
     color: #6d737b;
-    margin-bottom: 50px;
+    margin-bottom: 82px;
+    line-height: 125px;
     height: 150px;
 
 }
@@ -400,10 +399,10 @@ h1 {
     font-family: Roboto Medium, sans-serif;
     font-size: 34px;
     color: #fff;
-    height: 85px;
+    height: 80px;
     line-height: 85px;
     border: none;
-    width: 330px;
+    width: 335px;
     cursor: pointer;
     outline: 0;
 
@@ -423,13 +422,6 @@ h1 {
 
 .card .green__title {
     background-color: #58ad52;
-}
-
-.card__choice{
-    background-image: url(../img/professional.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
 }
 
 .card .green__price {
@@ -457,15 +449,31 @@ h1 {
     color: greenyellow;
 }
 
+.green__title {
+    position: relative;
+}
+
+.card__choice {
+    position: absolute;
+    left: 290px;
+    top: -25px;
+}
+
+.choise__logo {
+    width: 60px;
+    height: 60px;
+}
+
 /***************************************************************5************************************************/
 .section--wireframe {
     height: 100%;
     background-color: #e9eaed;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 65px;
+    padding-bottom: 63px;
 }
 
 .section__wireframe--inner {
+    font-family: Roboto Medium, sans-serif;
     color: #4b596c;
     font-size: 43px;
 }
@@ -483,18 +491,19 @@ h1 {
 
 .video__btn {
     display: inline-block;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
+    width: 130px;
+    height: 130px;
     background-position: center;
     background-color: transparent;
-    border: 12px solid;
-    border: rgba(250 0 0 0.5) #fff;
+    border: 20px solid;
+    border: rgba(255, 255, 255, 0.5) #eabcbc;
     border-radius: 100%;
     cursor: pointer;
     transition: 0.8s;
     outline: 0;
-
 }
 
 .video__btn:hover {
